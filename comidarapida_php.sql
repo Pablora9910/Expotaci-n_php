@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 26-05-2021 a las 17:35:59
+-- Tiempo de generación: 17-06-2021 a las 10:07:04
 -- Versión del servidor: 10.4.18-MariaDB
 -- Versión de PHP: 8.0.5
 
@@ -20,6 +20,8 @@ SET time_zone = "+00:00";
 --
 -- Base de datos: `comidarapida_php`
 --
+CREATE DATABASE IF NOT EXISTS `comidarapida_php` DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_spanish2_ci;
+USE `comidarapida_php`;
 
 -- --------------------------------------------------------
 
